@@ -1,0 +1,4 @@
+# install below package
+$SPLUNK_HOME/bin/splunk cmd python3 -m pip install python-dotenv
+
+# configure .env file bin/
