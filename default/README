@@ -1,4 +1,7 @@
 # install below package
-$SPLUNK_HOME/bin/splunk cmd python3 -m pip install python-dotenv
+$SPLUNK_HOME/bin/splunk cmd python3 -m pip install python-dotenv openai splunk-sdk
 
 # configure .env file bin/
+OPENAI_API_KEY=""
+OPENAI_MODEL=gpt-4o-mini
+OPENAI_API_BASE=https://api.openai.com/v1
